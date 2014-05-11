@@ -4,7 +4,7 @@ plot4 <- function() {
   png(filename = "plot4.png", bg = "transparent")
   par(mfrow = c(2, 2))
   
-  plot(dt, as.character(filtered$Global_active_power), type="l", ylab="Global Active Power (kilowatts)", xlab="")
+  plot(dt, as.character(filtered$Global_active_power), type="l", ylab="Global Active Power", xlab="")
   
   plot(dt, as.character(filtered$Voltage), type="l", ylab="Voltage", xlab="datetime")
   
